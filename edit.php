@@ -50,9 +50,6 @@
 	                        			<h3>Edit Data Mahasiswa</h3>
 	                            		<p>Silahkan isi data berikut ini :</p>
 	                        		</div>
-	                        		<div class="form-top-right">
-	                        			<i class="fa fa-pencil"></i>
-	                        		</div>
 	                            </div>
 	                            <div class="form-bottom">
                                     <?php 
