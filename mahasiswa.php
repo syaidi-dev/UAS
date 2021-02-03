@@ -3,12 +3,11 @@
 
     <head>
           <meta charset="utf-8">
-		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  
 		  <!--css bootstrap ambil dari web bootstrap langsung -->
-		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
-		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-              
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  
     </head>
 		      
     <body>
@@ -22,17 +21,18 @@
                             <h1><strong>DATA MAHASISWA</strong> </h1>
                             <h4>FTI | Kelas 3i Reguler Malam Banjarmasin</h4>
                         </div>
+                        <div class="col-sm-12 col-sm-offset-0 text">
+                            <a class="btn btn-primary btn-block" href="index.php">Logout</a>
+                        </div>
                     </div>
-                    <div class="col-sm-18 col-sm-offset-0 text">
-                            <a class="btn btn-primary btn-block" href="index.php"><strong>Logout</strong></a>
-                    </div>  
+                  
                     <div class="row">
                         <div class="col-sm-5">                       		                        
-    		                <div class="container">
-    						  <h2></h2>         
-    						  <img src="img/pi.png" class="img-thumbnail" alt="Cinque Terre" width="500" height="400"> 
+    		                <div class="container">        
+    						  <img src="img/pi.png" class="img-thumbnail" width="500" height="400"> 
     						</div>
-    					</div>                        
+    					</div>
+
                         <div class="col-sm-1"></div>
                             <div class="col-sm-5">                       	
                         	<div class="form-box">
@@ -75,7 +75,7 @@
                                             <div class="form-group">
                                             <label class="sr-only" for="form-last-name">Kode Pos</label>
                                             <input type="text" name="kode_pos" placeholder="*Kode pos..." class="form-last-name form-control" id="form-last-name" required="required" autocomplete="off">
-                                        </div>
+                                            </div>
                                         <button type="submit" class="btn">SIMPAN</button>
 				                    </form>
 			                    </div>
@@ -150,11 +150,12 @@
         		</div>
         	</div>
         </footer>
-
+      <!-- The javascript plugin to display page loading on top-->
+    <script src="js/pace.min.js"></script>
+    
     <!-- Data table plugin-->
-    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
-    <script type="text/javascript">$('#sampleTable').DataTable();</script>
-
+      <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+      <script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
+      <script type="text/javascript">$('#sampleTable').DataTable();</script>
     </body>
 </html>

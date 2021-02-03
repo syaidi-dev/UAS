@@ -2,7 +2,6 @@
 // koneksi database
 include 'koneksi.php';
 
-// menangkap data yang di kirim dari form
 $npm		 	= $_POST['npm'];
 $nama 			= $_POST['nama'];
 $tempat_lahir 	= $_POST['tempat_lahir'];
